@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Greetings from "./Greetings";
+import List from "./List";
+
 const fName = "Mnevis";
 const lName = "WebDev";
 var lnum = Math.round(Math.random() * 100);
@@ -44,6 +47,8 @@ ReactDOM.render(
     <p>your lucky number is {lnum} </p>
     <h1 style={{ fontSize: "10px" }}>This is another test</h1>
     <h1 style={customStyle2}> {whatToSay()} </h1>
+    <Greetings />
+    <List />
   </div>,
   document.getElementById("root")
 );
