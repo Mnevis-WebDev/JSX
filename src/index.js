@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-const name = "Mnevis";
+const fName = "Mnevis";
+const lName = "WebDev";
 var lnum = Math.round(Math.random() * 100);
 
 ReactDOM.render(
   <div>
-    <h1>Hello {name} !</h1>
+    <h1>
+      Hello {fName}, {lName}!
+    </h1>
     <p>your lucky number is {lnum} </p>
   </div>,
   document.getElementById("root")
