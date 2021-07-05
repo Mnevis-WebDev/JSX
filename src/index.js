@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+const name = "Mnevis";
+var lnum = Math.round(Math.random() * 100);
 
 ReactDOM.render(
   <div>
-    <h1>Hello World</h1>
-    <p>Bla bla bla</p>
-    <p>this is just to test the commit</p>
-    <h1> I was unable to see the change </h1>
+    <h1>Hello {name} !</h1>
+    <p>your lucky number is {lnum} </p>
   </div>,
   document.getElementById("root")
 );
